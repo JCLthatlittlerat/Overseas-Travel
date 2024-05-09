@@ -84,7 +84,16 @@
     gap: 30px;
     display: flex;
 }
-
+.arrows{
+    position: absolute;
+    z-index: 1;
+    top: 480px;
+    left: 100px;
+}
+.right-arrow{
+    position: relative;
+    left: 1090px;
+}
 
 
 

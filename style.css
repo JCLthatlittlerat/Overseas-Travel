@@ -4,3 +4,102 @@
     margin: 0;
     padding: 0;
 }
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-text{
+    font-family: "Raleway", sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+.the-O{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+/* =========================================================== */
+.options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.option{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/* ===================================================================== */
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px
+}
+.login{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 7px;
+}
+.signup{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+}
+.languages{
+    width: 20px;
+}
+/* ======================================================= */
+.preview{
+    position: absolute;
+    width: 93vw;
+    height: 500px;
+    left: 50px;
+    top: 85px;
+
+    background: url(/img/Rectangle\ 1.png);
+    border-radius: 30px;
+}
+.services{
+    position: relative;
+    top: 480px;
+    left: 25%;
+    background-color: white;
+    width: 53%;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 30px;
+    display: flex;
+}
+.arrows{
+    position: absolute;
+    z-index: 1;
+    top: 480px;
+    left: 100px;
+}
+.right-arrow{
+    position: relative;
+    left: 1090px;
+}
+
+
+
+
+
+
+
+

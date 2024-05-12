@@ -1,6 +1,5 @@
 /* This code here stabilizes the site because there are browser added spaces at first and they have to be removed */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }

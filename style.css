@@ -96,17 +96,29 @@
     box-shadow:1px 5px 10px #555 ;
   }
 
-.arrows{
+/* /* .arrows{
     position: relative;
     /* z-index: 1; */
+    /* top: -150px;
+    left: 7.5%; 
+} */
+.arrows{
+    position: relative;
     top: -150px;
-    left: 7.5%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 100px;
 }
-
+/* .leftArrow{
+    position: relative;
+    top: -150px;
+    left: 100px;
+}
 .rightArrow{
     position: relative;
-    left: 1095px;
-}
+    top: -150px;
+    right: 100px;
+} */
 
 .pageTitle{
     position: absolute;

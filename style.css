@@ -97,10 +97,10 @@
   }
 
 .arrows{
-    position: absolute;
+    position: relative;
     /* z-index: 1; */
-    top: 90%;
-    left: 7%;
+    top: -150px;
+    left: 7.5%;
 }
 
 .rightArrow{

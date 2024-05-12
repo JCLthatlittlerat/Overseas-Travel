@@ -84,8 +84,8 @@
 }
 
 .services{
-    position: absolute;
-    top: 95%;
+    position: relative;
+    top: -50px;
     left: 25%;
     background-color: white;
     width: 53%;
@@ -93,7 +93,7 @@
     border-radius: 20px;
     gap: 5%;
     display: flex;
-    box-shadow:black ;
+    box-shadow:1px 5px 10px #555 ;
   }
 
 .arrows{

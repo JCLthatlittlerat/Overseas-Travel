@@ -83,7 +83,8 @@
 .lowerPortion{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 }
 .previewImg{
     width: 100%;

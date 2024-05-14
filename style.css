@@ -93,7 +93,7 @@
     /* padding: 0% 3%; */
 }
 
-.services{
+.servicesContainer{
     position: relative;
     background-color: white;
     width: 60%;
@@ -104,6 +104,36 @@
     justify-content: space-around;
     top: 40px;
   }
+
+.serviceIcon1{
+    background: url(/assets/Group\ 3.png);
+    width: 42px;
+    height: 42px;
+}
+.serviceIcon2{
+    background: url(/assets/Group\ 6.png);
+    width: 42px;
+    height: 42px;
+}
+.serviceIcon3{
+    background: url(/assets/Group\ 7.png);
+    width: 42px;
+    height: 42px;
+}
+.services{
+    display: flex;
+    gap: 2%;
+    width: 30%;
+}
+.serviceDescTitle{
+    font-family: "Poppins","Raleway", sans-serif;
+    font-weight: bold;
+    font-size:medium;
+}
+.serviceDescDetail{
+    font-weight: lighter;
+    font-size:x-small;
+}
 
 /* /* .arrows{
     position: relative;

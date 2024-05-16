@@ -178,7 +178,85 @@
     font-family: "JetBrains Mono","Poppins", "Raleway", sans-serif;
 }
 /* ========================================================================== */
+.topDestionations{
+    display: flex;
+    flex-direction: column;
+    margin: 8% 3%;
+    padding: 0% 2%;
+}
+.topDestionationSec{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.topdestinationTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.topDestinationDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
+.destinationsSec{
+    display: flex;
+    justify-content: space-between;
+}
+.leftDetails{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    justify-content: space-around;
+}
+/* fix the images position */
+.leftUpperDetails{
+    height: 250px;
+    width: 100%;
+    background: url(/img/Rectangle\ 4215\(3\).png);
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.leftButtomDetails{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+}
+.leftButtomLeftDetails{
+    background: url(/img/Rectangle\ 4218.png);
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+}
+.leftButtomRightDetails{
+    background: url(/img/Rectangle\ 4219.png);
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+}
 
-
+.rightDetails{
+    background: url(/img/Rectangle\ 4217.png);
+    border-radius: 12px;
+    width: 32.5%;
+    /* height: 550px; */
+}
+.moreDestinations{
+    display: flex;
+    padding: 3% 0%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.brackingLine{
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+.moreButton{
+    background-color: black;
+    border-radius: 5px;
+    padding: 7px 25px;
+    color: white;
+    font-weight: 700;
+}
 
 

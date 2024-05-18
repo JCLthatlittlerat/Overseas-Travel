@@ -215,6 +215,7 @@
     background: url(/img/Rectangle\ 4215\(3\).png);
     border-radius: 12px;
     margin-bottom: 50px;
+    box-shadow: 90px 0px 60px 0px black inset;
 }
 .leftButtomDetails{
     display: flex;
@@ -226,12 +227,14 @@
     width: 400px;
     height: 250px;
     border-radius: 12px;
+    box-shadow: -0px -115px 60px -30px black inset;
 }
 .leftButtomRightDetails{
     background: url(/img/Rectangle\ 4219.png);
     width: 400px;
     height: 250px;
     border-radius: 12px;
+    box-shadow: -0px -115px 60px -30px black inset;
 }
 
 .rightDetails{
@@ -239,6 +242,7 @@
     border-radius: 12px;
     width: 32.5%;
     /* height: 550px; */
+    box-shadow: -0px -115px 60px -30px black inset;
 }
 .moreDestinations{
     display: flex;
@@ -254,7 +258,7 @@
 .moreButton{
     background-color: black;
     border-radius: 5px;
-    padding: 7px 25px;
+    padding: 10px 25px;
     color: white;
     font-weight: 700;
 }

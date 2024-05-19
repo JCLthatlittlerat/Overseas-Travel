@@ -181,7 +181,7 @@
 .topDestionations{
     display: flex;
     flex-direction: column;
-    margin: 8% 3%;
+    margin: 8% 3% 0% 3%;
     padding: 0% 2%;
 }
 .topDestionationSec{
@@ -322,5 +322,106 @@
     font-size: "Poppins", "Raleway", sans-serif;
     writing-mode: vertical-lr;
 }
+/* ============================================================================ */
+.bookings{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3% 8% 3%;
+    padding: 0% 2%;
 
+}
+.bookinIntro{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+
+
+.bookingTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bookingDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+
+.ticketBooking{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+
+.ticketImg{
+    background: url(/img/Rectangle\ 4224.png);
+    width: 886px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.ticketDetail{
+    width: 25%;
+    height: 250px;
+    background-color: #8D98A8;
+    border-radius: 12px;
+}
+
+.hotelBooking{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotelDetail{
+    width: 25%;
+    height: 250px;
+    background-color: #1E343D;
+    border-radius: 12px;
+}
+
+.hotelImg{
+    background: url(/img/Rectangle\ 4226.png);
+    width: 886px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.carRental{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+.rentalImg{
+    background: url(/img/Rectangle\ 4229.png);
+    width: 643px;
+    height: 250px;
+    border-radius: 12px;
+}
+.rentalDetail{
+    width: 41%;
+    height: 250px;
+    background-color: #0A1010;
+    border-radius: 12px;
+    
+}
+
+
+
+
+.moreBooking{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+}
+.moreBookingLink{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
 

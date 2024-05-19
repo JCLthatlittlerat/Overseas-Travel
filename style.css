@@ -357,6 +357,9 @@
 
 .ticketImg{
     background: url(/img/Rectangle\ 4224.png);
+    /* background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center; */
     width: 886px;
     height: 250px;
     border-radius: 12px;
@@ -395,6 +398,10 @@
 }
 .rentalImg{
     background: url(/img/Rectangle\ 4229.png);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
     width: 643px;
     height: 250px;
     border-radius: 12px;
@@ -423,5 +430,59 @@
     text-decoration: none;
     color: white;
     font-size: 28px;
+    font-family: "Poppins", "Raleway", sans-serif;
 }
 
+
+
+.ticketDescSec{
+    position: relative;
+    top: 25%;
+    left: 24%;
+    display: inline-grid;
+    justify-items: end;
+}
+.ticketingTitle{
+    color: white;
+    font-size: 23px;
+}
+.ticketingDetail{
+    color: white;
+    font-size: 14px;
+}
+.ticketsButton{
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+ 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  top: 55%;
+  left: 55%;
+}
+.ticktesButtonLink{
+    text-decoration: none;
+    color: black;
+}
+
+.whiteStroke{
+    height: 250px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+    top: -98px;
+}
+.ticketIcon{
+    background: url(/assets/Intersect.png);
+    width: 24px;
+    height: 22px;
+    position: relative;
+    top: -55%;
+    left: 3%;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-text{
+    font-family: "Raleway", sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+.the-O{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+/* =========================================================== */
+.signup{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+}
+.languages{
+    width: 20px;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px
+}
+/* =========================================================== */

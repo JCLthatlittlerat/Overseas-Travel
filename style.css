@@ -330,13 +330,13 @@
     padding: 0% 2%;
 
 }
+
+
 .bookinIntro{
     display: flex;
     flex-direction: column;
     padding-bottom: 3%;
 }
-
-
 .bookingTitle{
     font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
@@ -349,65 +349,228 @@
 }
 
 
+/* ////ticketing/// */
 .ticketBooking{
     display: flex;
     justify-content: space-between;
     padding: 3% 0%;
 }
-
 .ticketImg{
     background: url(/img/Rectangle\ 4224.png);
-    /* background-size: 100%;
-  background-repeat: no-repeat;
-  background-position-x: center; */
-    width: 886px;
+    /* background-size: 104%; */
+    /* background-repeat: no-repeat; */
+    background-position-x: center;
+    width: 855px;
     height: 250px;
     border-radius: 12px;
-}
+  }
 
 .ticketDetail{
-    width: 25%;
+    width: 28%;
     height: 250px;
     background-color: #8D98A8;
     border-radius: 12px;
 }
+.ticketDescSec{
+    position: relative;
+    top: 20%;
+    left: 24%;
+    display: inline-grid;
+    justify-items: end;
+}
+.ticketingTitle{
+    color: white;
+    font-size: 28px;
+}
+.ticketingDetail{
+    color: white;
+    /* font-size: 14px; */
+}
+.ticketsButton{
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+ 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  top: 50%;
+  left: 60%;
+  
+}
+.ticktesButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+
+.whiteStroke{
+    height: 255px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+    top: -112px;
+}
+.ticketIcon{
+    background: url(/assets/Intersect.png);
+    width: 24px;
+    height: 22px;
+    position: relative;
+    top: -60%;
+    left: 3%;
+}
+/* /////hoteling//// */
+
 
 .hotelBooking{
     display: flex;
     justify-content: space-between;
 }
-
 .hotelDetail{
-    width: 25%;
+    width: 30%;
     height: 250px;
     background-color: #1E343D;
     border-radius: 12px;
 }
-
+.hotelDescSec{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    /* display: inline-grid;
+    justify-items: end; */
+}
+.hotelwhiteStroke{
+    height: 260px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 81%;
+    top: -138px;
+  }
+.hotelsButton{
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+ 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+.hotelsButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelingTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelingDetail{
+    color: white;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelIcon{
+    background: url(/assets/Group\ 15.png);
+    width: 23px;
+    height: 28px;
+    position: relative;
+    top: -75%;
+    left: 90%;
+  }
 .hotelImg{
     background: url(/img/Rectangle\ 4226.png);
-    width: 886px;
+    width: 830px;
     height: 250px;
     border-radius: 12px;
-}
+    background-size: 110%;
+    background-repeat: no-repeat;
+  }
+
+/* /////rental//// */
+
 
 .carRental{
     display: flex;
     justify-content: space-between;
     padding: 3% 0%;
 }
+.rentalDescSec{
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.rentingTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentingDetail{
+    color: white;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentalButton{
+    background-color: white;
+    border-radius: 5px; 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+.rentalButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentalwhiteStroke{
+    width: 643px;
+    height: 22px;
+    background-color: white;
+    position: relative;
+  top: 10%;
+}
+.rentalIcon{
+    background: url(/assets/Group\ 16.png);
+    width: 26px;
+    height: 24px;
+    position: relative;
+    top: 21%;
+    left: 90%;
+}
+
 .rentalImg{
     background: url(/img/Rectangle\ 4229.png);
     /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; */
-    width: 643px;
+    width: 615px;
     height: 250px;
     border-radius: 12px;
 }
 .rentalDetail{
-    width: 41%;
+    width: 47%;
     height: 250px;
     background-color: #0A1010;
     border-radius: 12px;
@@ -435,54 +598,3 @@
 
 
 
-.ticketDescSec{
-    position: relative;
-    top: 25%;
-    left: 24%;
-    display: inline-grid;
-    justify-items: end;
-}
-.ticketingTitle{
-    color: white;
-    font-size: 23px;
-}
-.ticketingDetail{
-    color: white;
-    font-size: 14px;
-}
-.ticketsButton{
-    background-color: white;
-    border-radius: 5px;
-    /* padding: 10px 25px; */
- 
-    font-weight: 700;
-    width: 103px;
-    height: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  top: 55%;
-  left: 55%;
-}
-.ticktesButtonLink{
-    text-decoration: none;
-    color: black;
-}
-
-.whiteStroke{
-    height: 250px;
-    width: 22px;
-    background-color: white;
-    position: relative;
-    left: 15%;
-    top: -98px;
-}
-.ticketIcon{
-    background: url(/assets/Intersect.png);
-    width: 24px;
-    height: 22px;
-    position: relative;
-    top: -55%;
-    left: 3%;
-}

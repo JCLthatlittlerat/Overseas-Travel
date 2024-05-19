@@ -1,13 +1,12 @@
 /* This code here stabilizes the site because there are browser added spaces at first and they have to be removed */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 .main-nav{
     display: flex;
     justify-content: space-between;
-    padding: 0% 2%;
+    padding: 0% 3%;
 }
 .logo{
     display: flex;
@@ -66,15 +65,26 @@
 }
 /* ======================================================= */
 .preview{
-    padding: 0% 3%;
+    /* padding: 0% 3%;*/
+    margin: 0% 3%; 
     /* position: absolute; */
-    /* width: 100%; */
-    /* min-height: 100vh; */
+    /* width: 1372px; */
+    min-height: 599px;
     /* left: 50px;
     top: 85px; */
 
-    /* background: url(/img/Rectangle\ 1.png); */
-    /* border-radius: 30px; */
+    background: url(/img/Rectangle\ 1.png);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.lowerPortion{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 .previewImg{
     width: 100%;
@@ -83,45 +93,508 @@
     /* padding: 0% 3%; */
 }
 
-.services{
-    position: absolute;
-    top: 95%;
-    left: 25%;
+.servicesContainer{
+    position: relative;
     background-color: white;
-    width: 53%;
+    width: 60%;
     padding: 20px;
     border-radius: 20px;
-    gap: 5%;
     display: flex;
-    box-shadow:black ;
+    box-shadow: 1px 5px 10px #555;
+    justify-content: space-around;
+    top: 40px;
   }
 
-.arrows{
-    position: absolute;
-    /* z-index: 1; */
-    top: 90%;
-    left: 7%;
+.serviceIcon1{
+    background: url(/assets/Group\ 3.png);
+    width: 42px;
+    height: 42px;
+}
+.serviceIcon2{
+    background: url(/assets/Group\ 6.png);
+    width: 42px;
+    height: 42px;
+}
+.serviceIcon3{
+    background: url(/assets/Group\ 7.png);
+    width: 42px;
+    height: 42px;
+}
+.services{
+    display: flex;
+    gap: 2%;
+    width: 30%;
+}
+.serviceDescTitle{
+    font-family: "Poppins","Raleway", sans-serif;
+    font-weight: bold;
+    font-size:medium;
+}
+.serviceDescDetail{
+    font-weight: lighter;
+    font-size:x-small;
 }
 
+/* /* .arrows{
+    position: relative;
+    /* z-index: 1; */
+    /* top: -150px;
+    left: 7.5%; 
+} */
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* position: relative;
+    top: -150px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 100px; */
+}
+/* .leftArrow{
+    position: relative;
+    top: -150px;
+    left: 100px;
+}
 .rightArrow{
     position: relative;
-    left: 1095px;
-}
+    top: -150px;
+    right: 100px;
+} */
 
 .pageTitle{
     position: absolute;
     top: 25%;
     left: 13%;
     font-size: 2.5rem;
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins","Raleway", sans-serif;
     /* z-index: 1; */
 }
 .title{
 
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.subTitle{
+    font-family: "JetBrains Mono","Poppins", "Raleway", sans-serif;
+}
+/* ========================================================================== */
+.topDestionations{
+    display: flex;
+    flex-direction: column;
+    margin: 8% 3% 0% 3%;
+    padding: 0% 2%;
+}
+.topDestionationSec{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.topdestinationTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.topDestinationDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
+.destinationsSec{
+    display: flex;
+    justify-content: space-between;
+}
+.leftDetails{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    justify-content: space-around;
+}
+/* fix the images position */
+.leftUpperDetails{
+    height: 250px;
+    width: 100%;
+    background: url(/img/Rectangle\ 4215\(3\).png);
+    border-radius: 12px;
+    margin-bottom: 50px;
+    box-shadow: 90px 0px 60px 0px black inset;
+}
+.leftButtomDetails{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+}
+.leftButtomLeftDetails{
+    background: url(/img/Rectangle\ 4218.png);
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: -0px -115px 60px -30px black inset;
+}
+.leftButtomRightDetails{
+    background: url(/img/Rectangle\ 4219.png);
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: -0px -115px 60px -30px black inset;
+}
+
+.rightDetails{
+    background: url(/img/Rectangle\ 4217.png);
+    border-radius: 12px;
+    width: 32.5%;
+    /* height: 550px; */
+    box-shadow: -0px -115px 60px -30px black inset;
+}
+.moreDestinations{
+    display: flex;
+    padding: 3% 0%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.brackingLine{
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+.moreButton{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+}
+.moreButtonLink{
+    text-decoration: none;
+    color: white;
+}
+/* .moreButtonImg{
+    width: 30px;
+    height: 30px;
+} */
+.buttonContainer{
+    display: flex;
+    justify-content: baseline;
+}
+/* imgDescription of right image */
+.rightDetailsHorizontalImgDesc{
+    position: relative;
+    top: 89%;
+    left: 5%;
+    display: flex;
+  flex-direction: column;
+}
+/* imgDescription of left buttom images */
+
+.leftButtomHorizontalImgDesc{
+    position: relative;
+    top: 75%;
+    left: 5%;
+    display: flex;
+  flex-direction: column;
+}
+
+.leftUpperHorizontalImgDesc{
+    display: flex;
+    padding: 2% 2%;
+}
+.topdestinationRightTitle{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: "Poppins", "Raleway", sans-serif;
+}
+.topDestinationRightDesc{
+    color: white;
+    font-size: 10px;
+    font-size: "Poppins", "Raleway", sans-serif;
+
+}
+
+.topdestinationLeftUpperTitle{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: "Poppins", "Raleway", sans-serif;
+    writing-mode: vertical-lr;
+}
+.topDestinationLeftUpperDesc{
+    color: white;
+    font-size: 10px;
+    font-size: "Poppins", "Raleway", sans-serif;
+    writing-mode: vertical-lr;
+}
+/* ============================================================================ */
+.bookings{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3% 8% 3%;
+    padding: 0% 2%;
+
 }
 
 
+.bookinIntro{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.bookingTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bookingDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+
+/* ////ticketing/// */
+.ticketBooking{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+.ticketImg{
+    background: url(/img/Rectangle\ 4224.png);
+    /* background-size: 104%; */
+    /* background-repeat: no-repeat; */
+    background-position-x: center;
+    width: 855px;
+    height: 250px;
+    border-radius: 12px;
+  }
+
+.ticketDetail{
+    width: 28%;
+    height: 250px;
+    background-color: #8D98A8;
+    border-radius: 12px;
+}
+.ticketDescSec{
+    position: relative;
+    top: 20%;
+    left: 24%;
+    display: inline-grid;
+    justify-items: end;
+}
+.ticketingTitle{
+    color: white;
+    font-size: 28px;
+}
+.ticketingDetail{
+    color: white;
+    /* font-size: 14px; */
+}
+.ticketsButton{
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+ 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  top: 50%;
+  left: 60%;
+  
+}
+.ticktesButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+
+.whiteStroke{
+    height: 255px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+    top: -112px;
+}
+.ticketIcon{
+    background: url(/assets/Intersect.png);
+    width: 24px;
+    height: 22px;
+    position: relative;
+    top: -60%;
+    left: 3%;
+}
+/* /////hoteling//// */
+
+
+.hotelBooking{
+    display: flex;
+    justify-content: space-between;
+}
+.hotelDetail{
+    width: 30%;
+    height: 250px;
+    background-color: #1E343D;
+    border-radius: 12px;
+}
+.hotelDescSec{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    /* display: inline-grid;
+    justify-items: end; */
+}
+.hotelwhiteStroke{
+    height: 260px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 81%;
+    top: -138px;
+  }
+.hotelsButton{
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+ 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+.hotelsButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelingTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelingDetail{
+    color: white;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.hotelIcon{
+    background: url(/assets/Group\ 15.png);
+    width: 23px;
+    height: 28px;
+    position: relative;
+    top: -75%;
+    left: 90%;
+  }
+.hotelImg{
+    background: url(/img/Rectangle\ 4226.png);
+    width: 830px;
+    height: 250px;
+    border-radius: 12px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+  }
+
+/* /////rental//// */
+
+
+.carRental{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+.rentalDescSec{
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.rentingTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentingDetail{
+    color: white;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentalButton{
+    background-color: white;
+    border-radius: 5px; 
+    font-weight: 700;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+.rentalButtonLink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
+.rentalwhiteStroke{
+    width: 643px;
+    height: 22px;
+    background-color: white;
+    position: relative;
+  top: 10%;
+}
+.rentalIcon{
+    background: url(/assets/Group\ 16.png);
+    width: 26px;
+    height: 24px;
+    position: relative;
+    top: 21%;
+    left: 90%;
+}
+
+.rentalImg{
+    background: url(/img/Rectangle\ 4229.png);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    width: 615px;
+    height: 250px;
+    border-radius: 12px;
+}
+.rentalDetail{
+    width: 47%;
+    height: 250px;
+    background-color: #0A1010;
+    border-radius: 12px;
+    
+}
+
+
+
+
+.moreBooking{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+}
+.moreBookingLink{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: "Poppins", "Raleway", sans-serif;
+}
 
 
 

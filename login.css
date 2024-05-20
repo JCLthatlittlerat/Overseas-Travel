@@ -42,3 +42,74 @@
     gap: 10px
 }
 /* =========================================================== */
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.email{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+}
+.password{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+}
+.loginButton{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+
+}
+.someDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    width: 510px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.loginWithGoogle{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #222222;
+    align-items: center;
+}
+.googleLogo{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: -95%;
+    top: 15%;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.theForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

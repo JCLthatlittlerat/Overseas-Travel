@@ -103,3 +103,48 @@
 .subTitle{
     color: white;
 }
+/* ============================================================= */
+.searchField{
+    margin: 2% 3%;
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    width: 85%;
+    margin-left: 7%;
+    border-radius: 12px;
+}
+.searchFieldContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1212px;
+    height: 65px;
+    align-items: center;
+    /* width: 90%; */
+    padding: 0.1% 2%;
+}
+.searchFieldBoxContainer{
+    width: 88%;
+}
+.searchBox{
+    width: 100%;
+    padding: 0.7%;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+.filterButton{
+    background-color: black;
+  border-radius: 12px;
+}
+.searchButton{
+    background-color: black;
+  border-radius: 12px;
+}

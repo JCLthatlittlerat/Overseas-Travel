@@ -52,6 +52,9 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 7%;
+    font-size: 24px;
+    font-family: "Poppins","Raleway", sans-serif;
+
 }
 .email{
     width: 554px;

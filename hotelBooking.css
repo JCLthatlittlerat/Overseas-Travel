@@ -96,5 +96,10 @@
 .textPortion{
     font-size: 64px;
     font-weight: bold;
-    columns: white;
+    position: relative;
+    top: 375px;
+    left: 5%;
+}
+.subTitle{
+    color: white;
 }

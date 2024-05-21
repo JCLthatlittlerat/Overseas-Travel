@@ -24,6 +24,10 @@
     font-weight: bold;
     font-style: normal;
 }
+.overseasNav{
+    text-decoration: none;
+    color: black;
+}
 /* =========================================================== */
 .signup{
     background-color: black;

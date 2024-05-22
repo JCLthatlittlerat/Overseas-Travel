@@ -609,5 +609,21 @@
     font-family: "Poppins", "Raleway", sans-serif;
 }
 
+/* ================================================================================ */
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3% 8% 3%;
+    padding: 0% 3%;
+}
+.testimonialTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.testimonialDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
 
 

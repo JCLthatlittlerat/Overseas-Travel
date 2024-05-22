@@ -9,17 +9,21 @@
 <body>
     <nav class="main-nav">
         <div class="logo">
-             <span class="logo-text"> <span class="the-O">O</span>verseas </span>
+            <a class="overseasNav" href="#">
+                <span class="logo-text"> <span class="the-O">O</span>verseas </span>
+            </a>
         </div>
         <div class="options">
             <a href="" class="option">Destinations</a>
-            <a href="" class="option">Bookings</a>
+            <a href="#bookings" class="option">Bookings</a>
             <a href="" class="option">Activities</a>
         </div>
         <div class="users">
             <a href="login.html" class="login">Log In</a>
-            <button class="signup">Sign Up</button>
-            <select name="languages" id="languages">
+            <div class="signUpContainer">
+                <a class="signUp" href="/signup.html">SignUp</a>
+            </div>
+            <select name="languages" id="languages" class="languages">
                 <option value="english">Eng</option>
                 <option value="spain">Spain</option>
                 <option value="amharic">Amharic</option>
@@ -132,7 +136,7 @@
             <div class="moreDestinations">
                 <hr class="brackingLine">
                 <div class="moreButton">
-                    <a class="moreButtonLink" href="topDestionations.html">More
+                    <a class="moreButtonLink" href="/topDestionations.html">More
                     <span>&#10132;</span> 
                     </a>
                 </div>
@@ -146,7 +150,7 @@
 
         </section>
 
-        <section class="bookings">
+        <section class="bookings" id="bookings">
             <div class="bookingIntro">
                 <h3 class="bookingTitle">Booking Made Easy</h3>
                 <span class="bookingDetail">Book flights, rooms and rental cars for your destinations in one place</span>
@@ -178,7 +182,7 @@
                             are options for everyone.</span>
                     </div>
                     <div class="hotelsButton">
-                        <a class="hotelsButtonLink" href="">Rooms
+                        <a class="hotelsButtonLink" href="/hotelBooking.html">Rooms
                         </a>
                     </div>
                     <div class="hotelwhiteStroke"></div>
@@ -190,7 +194,6 @@
                 <div class="rentalImg"></div>
                 <div class="rentalDetail">
                     <div class="rentalDescSec">
-                        <!-- stopped here -->
                         <h3 class="rentingTitle">Car Rentals</h3>
                         <span class="rentingDetail">You’re finally there and you have to use land transportation, what <br>
                             is the convenient way to travel in the country for you? Choose your <br>
@@ -206,13 +209,90 @@
             </div>
             <div class="moreBooking">
                 <div class="moreBooking">
-                    <a class="moreBookingLink" href="">Go To Booking
+                    <a class="moreBookingLink" href="/hotelBooking.html">Go To Booking
                         <div class="arrow">
 
                             <span>&#10132;</span> 
                         </div>
                     </a>
                 </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="testimonialsIntro">
+                <h3 class="testimonialTitle">Testimonials</h3>
+                <span class="testimonialDetail">What out clients say about our service</span>
+            </div>
+            <div class="testimonialDetails">
+                <div class="testimonialDetailLeft">
+                    <div class="testimonialDetailLeftUpper">
+                        <div class="photoContainer"></div>
+                        <div class="personalDetail">
+                            <h3 class="personName">Linsa Brandon</h3>
+                            <span class="personPosition">Travel Intusiast</span>
+                        </div>
+                    </div>
+                    <div class="testimonialDetailLeftBottom">
+                        <div class="forwardArrow"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="none" stroke="#ddd" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m268 112l144 144l-144 144m124-144H100"/></svg></div>
+                        <div class="previousArrow"><span>&#10132;</span></div>
+                    </div>
+                </div>
+                <div class="testimonialDetailRight">
+                    <p>
+                        As a frequent traveler, I've always struggled with the logistics of planning trips that are both adventurous and relaxing. Discovering this website has been a game-changer for me! The user-friendly interface allowed me to effortlessly plan my entire trip—from flights and accommodations to excursions and dining—all tailored to my preferences. The personalized recommendations and seamless booking process saved me so much time and hassle. I particularly appreciated the interactive map feature, which helped me visualize my trip itinerary and discover hidden gems. Thanks to this incredible platform, my recent trip to Italy was the most stress-free and enjoyable vacation I've ever had. I can't wait to plan my next adventure with this site!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="community">
+            <div class="communityIntro">
+                <h3 class="communityTitle">Join the Community</h3>
+                <span class="communityIntroDetail">Share memories of your travel in our blog section</span>
+            </div>
+            <div class="communityDetail">
+                <div class="showCaseContainer">
+                    <div class="showCase">
+                        <div class="showCaseImg">
+                            <div class="image1"></div>
+                        </div>
+                        <div class="showCaswDetails">
+                            <div class="showCaseDesc">
+                                <div class="showCaseTitle"><span>My Short Journey to Switzerland</span></div>
+                                <div class="showCaseDetail"><span>To begin my article with appreciation I would call this place <br> mind-blowing and wonderful. The first thi...</span></div>
+                            </div>
+                            <div class="showCasePrice"><span>$20 - $1000 / night</span></div>
+                        </div>
+                    </div>
+                    <div class="showCase">
+                        <div class="showCaseImg">
+                            <div class="image2"></div>
+        
+                        </div>
+                        <div class="showCaswDetails">
+                            <div class="showCaseDesc">
+                                <div class="showCaseTitle"><span>Best Places to Visit in Thailand</span></div>
+                                <div class="showCaseDetail"><span>Beautiful water, how do I explain this? The view from my hotel <br> room was right out of an adventure movie like A Wrink...</span></div>
+                            </div>
+                            <div class="showCasePrice"><span>Apr 10, 2024</span></div>
+                        </div>
+                    </div>
+                    <div class="showCase">
+                        <div class="showCaseImg">
+                            <div class="image3"></div>
+        
+                        </div>
+                        <div class="showCaswDetails">
+                            <div class="showCaseDesc">
+                                <div class="showCaseTitle"><span>Russia for Travel</span></div>
+                                <div class="showCaseDetail"><span>Where could anyone go in Russia as a tourist? What places <br> are rated the top visited and which are underrated?</span></div>
+                            </div>
+                            <div class="showCasePrice"><span>Mar 31, 2024</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lastOverseas">
+                <span>Overseas</span>
             </div>
         </section>
     </div>

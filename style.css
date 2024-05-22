@@ -25,6 +25,10 @@
     font-weight: bold;
     font-style: normal;
 }
+.overseasNav{
+    text-decoration: none;
+    color: black;
+}
 /* =========================================================== */
 .options{
     display: flex;
@@ -53,15 +57,28 @@
     font-style: normal;
     padding-top: 7px;
 }
-.signup{
+.signUpContainer{
     background-color: black;
-    border-radius: 5px;
-    padding: 5px 10px;
+    width: 88px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.signUp{
     color: white;
-    font-weight: 700;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .languages{
-    width: 20px;
+    width: 45px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;
 }
 /* ======================================================= */
 .preview{
@@ -596,5 +613,160 @@
     font-family: "Poppins", "Raleway", sans-serif;
 }
 
+/* ================================================================================ */
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3% 8% 3%;
+    padding: 0% 3%;
+}
+.testimonialTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.testimonialDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+}
+.testimonialDetails{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+    margin-top: 5%;
+}
 
 
+.testimonialDetailLeft{
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    justify-content: space-around;
+}
+.testimonialDetailLeftUpper{
+    display: flex;
+    justify-content: space-around;
+
+}
+.photoContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(/img/Ellipse\ 67.png);
+}
+.testimonialDetailLeftBottom{
+    display: flex;
+    column-gap: 20%;
+    padding-left: 10%;
+}
+/* =================================================================================== */
+.community{
+    background: url(/img/Component\ 3.png);
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+}
+.communityTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+.communityIntro{
+    padding: 4% 5%;
+}
+.communityIntroDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.communityDetail{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin-top: 5%; */
+    margin-left: 2%;
+
+}
+.lastOverseas{
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.showCaseContainer{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.showCase{
+    width: 400px;
+    height: 513px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.showCaseImg{
+    width: 395px;
+    height: 378px;
+    padding: 3%;
+}
+.image1{
+    background: url(/img/Rectangle\ 4263.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image2{
+    background: url(/img/Rectangle\ 4264.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image3{
+    background: url(/img/Rectangle\ 4265.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+
+
+.showCaswDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.showCaswDetails{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.showCaseDesc{
+    padding-bottom: 6%;
+}
+.showCaseTitle{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.showCaseDetail{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.showCasePrice{
+    font-family: "JetBrains Mono","Poppins", sans-serif;
+    font-size: 10px;
+    padding-bottom: 2%;
+}

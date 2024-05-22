@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo">
+            <a class="overseasNav" href="/index.html">
+                <span class="logo-text"> <span class="the-O">O</span>verseas </span>
+            </a>
+        </div>
+        <div class="users">
+
+            <a href="login.html" class="login">Log In</a>
+            <select name="languages" id="languages" class="languages">
+                <option value="english">Eng</option>
+                <option value="spain">Spain</option>
+                <option value="amharic">Amharic</option>
+                <option value="arabic">Arabic</option>
+            </select>
+        </div>
+    </nav>
+<section class="loginPage">
+    <div class="login">
+        <div class="loginMessage">
+            <span class="message">Welcome   <br> </span>
+            <span class="message">Please sign up to create account.</span>
+        </div>
+
+        <form class="theForm" action="">
+            <input type="text" class="email" name="username" placeholder="Full Name" required>
+
+            <input type="email" class="uname" name="email" placeholder="Email Address" required>
+            <input type="password" class="password" name="password" placeholder="Password" required>
+            <input type="password" class="password" name="password" placeholder="Confirm Password" required>
+            <button class="signupButtton">Sign Up</button>
+            <div class="someDetails">
+                <div>
+                    <input name="rememberMe" class="rememberMe" type="checkbox" ><label for="rememberMe" class="rememberMe" >Remember me</label>
+                </div>
+               
+            </div>
+            <div class="loginWithGoogle">
+                <a class="links" target="" href="https://accounts.google.com/gsi/select?client_id=705648808057"><img src="/assets/Social Icons.png" class="googleLogo" alt="Login with Google">
+                    Sign Up With Google
+                </a>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

@@ -652,7 +652,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: url(/img/Rectangle\ 4276.png);
+    background: url(/img/Ellipse\ 67.png);
 }
 .testimonialDetailLeftBottom{
     display: flex;
@@ -710,7 +710,7 @@
 .showCase{
     width: 400px;
     height: 513px;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -723,20 +723,50 @@
     padding: 3%;
 }
 .image1{
-    background: url(/img/Rectangle\ 4278.png);
+    background: url(/img/Rectangle\ 4263.png);
     width: 372px;
     height: 378px;
     border-radius: 12px;
 }
 .image2{
-    background: url(/img/Rectangle\ 4276.png);
+    background: url(/img/Rectangle\ 4264.png);
     width: 372px;
     height: 378px;
     border-radius: 12px;
 }
 .image3{
-    background: url(/img/Rectangle\ 4271.png);
+    background: url(/img/Rectangle\ 4265.png);
     width: 372px;
     height: 378px;
     border-radius: 12px;
+}
+
+
+.showCaswDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.showCaswDetails{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.showCaseDesc{
+    padding-bottom: 6%;
+}
+.showCaseTitle{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.showCaseDetail{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.showCasePrice{
+    font-family: "JetBrains Mono","Poppins", sans-serif;
+    font-size: 10px;
+    padding-bottom: 2%;
 }

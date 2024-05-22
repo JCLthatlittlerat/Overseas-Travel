@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-text{
+    font-family: "Raleway", sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+.the-O{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.overseasNav{
+    text-decoration: none;
+    color: black;
+}
+/* =========================================================== */
+.signup{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+}
+.languages{
+    width: 45px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px
+}
+/* =========================================================== */
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.login{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+.message{
+    font-size: 24px;
+    font-family: "Poppins","Raleway", sans-serif;
+}
+.uname{
+    width: 525px;
+    height: 61px;
+    border-radius: 12px;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+    padding-left: 5%;
+}
+.email{
+    width: 525px;
+    height: 61px;
+    border-radius: 12px;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+    padding-left: 5%;
+}
+.password{
+    width: 525px;
+    height: 61px;
+    border-radius: 12px;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+    padding-left: 5%;
+}
+.signupButtton{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 7%;
+    border: 1px solid #222222;
+    font-size: 24px;
+    font-family: "Poppins","Raleway", sans-serif;
+}
+.someDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    width: 510px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.loginWithGoogle{
+    width: 554px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #222222;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.googleLogo{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: -90%;
+    top: 10%;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.theForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

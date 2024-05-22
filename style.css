@@ -655,4 +655,84 @@
     column-gap: 20%;
     padding-left: 10%;
 }
+/* =================================================================================== */
+.community{
+    background: url(/img/Component\ 3.png);
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+}
+.communityTitle{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+.communityIntro{
+    padding: 4% 5%;
+}
+.communityIntroDetail{
+    font-family: "Poppins", "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.communityDetail{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin-top: 5%; */
+    margin-left: 2%;
 
+}
+.lastOverseas{
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.showCaseContainer{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.showCase{
+    width: 400px;
+    height: 513px;
+    background-color: #ddd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.showCaseImg{
+    width: 395px;
+    height: 378px;
+    padding: 3%;
+}
+.image1{
+    background: url(/img/Rectangle\ 4278.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image2{
+    background: url(/img/Rectangle\ 4276.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image3{
+    background: url(/img/Rectangle\ 4271.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}

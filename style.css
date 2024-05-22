@@ -625,5 +625,34 @@
     font-family: "Poppins", "Raleway", sans-serif;
     font-size: 16px;
 }
+.testimonialDetails{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+    margin-top: 5%;
+}
 
+
+.testimonialDetailLeft{
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    justify-content: space-around;
+}
+.testimonialDetailLeftUpper{
+    display: flex;
+    justify-content: space-around;
+
+}
+.photoContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(/img/Rectangle\ 4276.png);
+}
+.testimonialDetailLeftBottom{
+    display: flex;
+    column-gap: 20%;
+    padding-left: 10%;
+}
 

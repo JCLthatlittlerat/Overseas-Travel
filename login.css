@@ -47,7 +47,11 @@
   font-style: normal;
 }
 .languages{
-    width: 20px;
+    width: 45px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;
 }
 .users{
     display: flex;
@@ -71,18 +75,20 @@
 
 }
 .email{
-    width: 554px;
+    width: 525px;
     height: 61px;
     border-radius: 12px;
     margin-bottom: 7%;
     border: 1px solid #222222;
+    padding-left: 5%;
 }
 .password{
-    width: 554px;
+    width: 525px;
     height: 61px;
     border-radius: 12px;
     margin-bottom: 7%;
     border: 1px solid #222222;
+    padding-left: 5%;
 }
 .loginButton{
     width: 554px;
@@ -93,7 +99,7 @@
     font-weight: bolder;
     margin-bottom: 7%;
     border: 1px solid #222222;
-
+    font-size: 200%;
 }
 .someDetails{
     display: flex;

@@ -50,28 +50,48 @@
     <div class="frontpage">
         <section class="preview">
             <div class="upperPortion">
-                <div class="pageTitle">
-                    <h1 class="title">China</h1>
-                    <span class="subTitle">-The Greatest wall</span>
+                <div class="slideshow-container">
+                    <div class="mySlides fade" data-bg="../img/china.jpg">
+                        <div class="pageTitle black-color">
+                            <h1 class="title">China</h1>
+                            <span class="subTitle">-The Greatest wall</span>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" data-bg="../img/eiffel\ tower.jpg">
+                        <div class="pageTitle white-color">
+                            <h1 class="title">France</h1>
+                            <span class="subTitle">-Eiffel Tower</span>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" data-bg="../img/mount-fuji.jpg">
+                        <div class="pageTitle white-color">
+                            <h1 class="title">Japan</h1>
+                            <span class="subTitle">-Mount Fuji</span>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" data-bg="../img/korean-village.jpg">
+                        <div class="pageTitle white-color">
+                            <h1 class="title">South Korea</h1>
+                            <span class="subTitle">-Korean Villages</span>
+                        </div>
+                    </div>
+                    <!-- Add more slides as needed -->
                 </div>
             </div>
-
+        
             <div class="lowerPortion">
                 <div class="arrows">
-                    <div class="leftArrow">
+                    <div class="leftArrow" onclick="moveSlides(-1)">
                         <img src="/assets/Group 1.png" alt="" class="leftArrow">
                     </div>
-
-                    <div class="rightArrow">
+                    <div class="rightArrow" onclick="moveSlides(1)">
                         <img src="/assets/Group 2.png" alt="" class="rightArrow">
                     </div>
                 </div>
-
+        
                 <div class="servicesContainer">
                     <div class="services">
-                        <div class="serviceIcon1">
-
-                        </div>
+                        <div class="serviceIcon1"></div>
                         <div class="serviceDesc">
                             <div class="serviceDescTitle">
                                 <span>Keyword Search</span>
@@ -79,7 +99,6 @@
                             <div class="serviceDescDetail">
                                 <span>Find the places you want to see</span>
                             </div>
-
                         </div>
                     </div>
                     <div class="services">
@@ -94,9 +113,7 @@
                         </div>
                     </div>
                     <div class="services">
-                        <div class="serviceIcon3">
-
-                        </div>
+                        <div class="serviceIcon3"></div>
                         <div class="serviceDesc">
                             <div class="serviceDescTitle">
                                 <span>Prices</span>
@@ -107,9 +124,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+        
 
         <section class="topDestionations">
             <div class="topDestionationSec">
@@ -338,7 +355,8 @@
     </div>
 
 
-
+    <script src="apps.js"></script>
+    
 </body>
 
 </html>

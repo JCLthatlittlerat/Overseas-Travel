@@ -102,15 +102,17 @@
     margin: 0% 5%;
     /* position: absolute; */
     /* width: 1372px; */
-    min-height: 599px;
+    min-height: calc(100vh - 200px);
     /* left: 50px;
     top: 85px; */
-    background: url("../img/Rectangle\ 1.png");
+    background-position: center;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
+    position: relative;
+    transition: background-image 0.5s ease-in-out;
 }
 
 .lowerPortion {
@@ -187,6 +189,7 @@
 } */
 .arrows {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 90%;
     /* position: relative;
@@ -196,33 +199,60 @@
     padding: 0px 100px; */
 }
 
-/* .leftArrow{
-    position: relative;
-    top: -150px;
-    left: 100px;
+.leftArrow, .rightArrow{
+    transform: rotate(90deg);
+    cursor: pointer;
 }
-.rightArrow{
-    position: relative;
-    top: -150px;
-    right: 100px;
-} */
 
 .pageTitle {
     position: absolute;
-    top: 25%;
-    left: 13%;
-    font-size: 2.5rem;
+    top: 60px;
+    left: 8%;
     font-family: "Poppins", "Raleway", sans-serif;
     /* z-index: 1; */
 }
 
 .title {
-
     font-family: "Poppins", sans-serif;
+    font-size: 128px;
 }
 
 .subTitle {
     font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
+}
+
+.black-color {
+    color: black;
+}
+
+.white-color {
+    color: white;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fadein;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* ========================================================================== */

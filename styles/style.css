@@ -9,20 +9,20 @@
 .main-nav {
     display: flex;
     justify-content: space-between;
-    padding: 0% 3%;
+    padding: 30px 3%;
+    margin: 0px 3%;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    font-size: 24px;
 }
 
 .logo-text {
     font-family: "Raleway", sans-serif;
     font-size: larger;
-    font-weight: lighter;
 }
 
 .the-O {
@@ -88,7 +88,7 @@
 }
 
 .languages {
-    width: 45px;
+    width: 50px;
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -98,7 +98,7 @@
 /* ======================================================= */
 .preview {
     /* padding: 0% 3%;*/
-    margin: 0% 3%;
+    margin: 0% 5%;
     /* position: absolute; */
     /* width: 1372px; */
     min-height: 599px;

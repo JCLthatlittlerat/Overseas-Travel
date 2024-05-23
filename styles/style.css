@@ -1,63 +1,76 @@
 /* This code here stabilizes the site because there are browser added spaces at first and they have to be removed */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
-.main-nav{
+
+.main-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 0% 3%;
+    padding: 30px 3%;
+    margin: 0px 3%;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    font-size: 24px;
 }
-.logo-text{
+
+.logo-text {
     font-family: "Raleway", sans-serif;
     font-size: larger;
-    font-weight: lighter;
 }
-.the-O{
+
+.the-O {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
 }
-.overseasNav{
+
+.overseasNav {
     text-decoration: none;
     color: black;
 }
+
 /* =========================================================== */
-.options{
+.options {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.option{
+
+.option {
     color: black;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
+
 /* ===================================================================== */
-.users{
+.users {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     gap: 10px
 }
-.login{
+
+.login {
     color: black;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    padding-top: 7px;
+    padding-top: 3px;
 }
-.signUpContainer{
+
+.signUpContainer {
     background-color: black;
     width: 88px;
     height: 30px;
@@ -66,53 +79,57 @@
     align-items: center;
     border-radius: 4px;
 }
-.signUp{
+
+.signUp {
     color: white;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-.languages{
-    width: 45px;
+
+.languages {
+    width: 50px;
     background-color: white;
     border-radius: 5px;
     color: black;
     border: 2px solid black;
 }
+
 /* ======================================================= */
-.preview{
+.preview {
     /* padding: 0% 3%;*/
-    margin: 0% 3%; 
+    margin: 0% 5%;
     /* position: absolute; */
     /* width: 1372px; */
-    min-height: 599px;
+    min-height: calc(100vh - 200px);
     /* left: 50px;
     top: 85px; */
-
-    background: url(/img/Rectangle\ 1.png);
+    background-position: center;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
-
-
+    position: relative;
+    transition: background-image 0.5s ease-in-out;
 }
-.lowerPortion{
+
+.lowerPortion {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
-.previewImg{
+
+.previewImg {
     width: 100%;
     min-height: 90%;
     border-radius: 30px;
     /* padding: 0% 3%; */
 }
 
-.servicesContainer{
+.servicesContainer {
     position: relative;
     background-color: white;
     width: 60%;
@@ -122,52 +139,57 @@
     box-shadow: 1px 5px 10px #555;
     justify-content: space-around;
     top: 40px;
-  }
+}
 
-.serviceIcon1{
-    background: url(/assets/Group\ 3.png);
+.serviceIcon1 {
+    background: url("../assets/Group\ 3.png");
     width: 42px;
     height: 42px;
     background-size: cover;
 
 }
-.serviceIcon2{
-    background: url(/assets/Group\ 6.png);
+
+.serviceIcon2 {
+    background: url("../assets/Group\ 6.png");
     width: 42px;
     height: 42px;
     background-size: cover;
 
 }
-.serviceIcon3{
-    background: url(/assets/Group\ 7.png);
+
+.serviceIcon3 {
+    background: url("../assets/Group\ 7.png");
     width: 42px;
     height: 42px;
     background-size: cover;
 
 }
-.services{
+
+.services {
     display: flex;
     gap: 2%;
     width: 30%;
 }
-.serviceDescTitle{
-    font-family: "Poppins","Raleway", sans-serif;
+
+.serviceDescTitle {
+    font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
-    font-size:medium;
+    font-size: medium;
 }
-.serviceDescDetail{
-    font-weight: lighter;
-    font-size:x-small;
+
+.serviceDescDetail {
+    font-size: x-small;
 }
 
 /* /* .arrows{
     position: relative;
     /* z-index: 1; */
-    /* top: -150px;
+/* top: -150px;
     left: 7.5%; 
 } */
-.arrows{
+.arrows {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 90%;
     /* position: relative;
@@ -176,90 +198,120 @@
     justify-content:space-between;
     padding: 0px 100px; */
 }
-/* .leftArrow{
-    position: relative;
-    top: -150px;
-    left: 100px;
-}
-.rightArrow{
-    position: relative;
-    top: -150px;
-    right: 100px;
-} */
 
-.pageTitle{
+.leftArrow, .rightArrow{
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.pageTitle {
     position: absolute;
-    top: 25%;
-    left: 13%;
-    font-size: 2.5rem;
-    font-family: "Poppins","Raleway", sans-serif;
+    top: 60px;
+    left: 8%;
+    font-family: "Poppins", "Raleway", sans-serif;
     /* z-index: 1; */
 }
-.title{
 
-    font-family: "Poppins", "Raleway", sans-serif;
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 128px;
 }
-.subTitle{
-    font-family: "JetBrains Mono","Poppins", "Raleway", sans-serif;
+
+.subTitle {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
 }
+
+.black-color {
+    color: black;
+}
+
+.white-color {
+    color: white;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fadein;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 /* ========================================================================== */
-.topDestionations{
+.topDestionations {
     display: flex;
     flex-direction: column;
     margin: 8% 3% 0% 3%;
     padding: 0% 2%;
 }
-.topDestionationSec{
+
+.topDestionationSec {
     display: flex;
     flex-direction: column;
     padding-bottom: 3%;
 }
-.topdestinationTitle{
+
+.topdestinationTitle {
     font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
-.topDestinationDetail{
+
+.topDestinationDetail {
     font-family: "Poppins", "Raleway", sans-serif;
     font-size: 16px;
 }
-.destinationsSec{
+
+.destinationsSec {
     display: flex;
     justify-content: space-between;
 }
-.leftDetails{
+
+.leftDetails {
     display: flex;
     flex-direction: column;
     width: 62%;
     justify-content: space-around;
 }
+
 /* fix the images position */
-.leftUpperDetails{
+.leftUpperDetails {
     height: 250px;
     width: 100%;
-    background: url(/img/Rectangle\ 4215\(3\).png);
+    background: url("../img/Rectangle\ 4215\(3\).png");
     border-radius: 12px;
     margin-bottom: 50px;
     box-shadow: 90px 0px 60px 0px black inset;
     background-size: cover;
 
 }
-.leftButtomDetails{
+
+.leftButtomDetails {
     display: flex;
     gap: 5%;
     width: 100%;
 }
-.leftButtomLeftDetails{
-    background: url(/img/Rectangle\ 4218.png);
-    width: 400px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: -0px -115px 60px -30px black inset;
-    background-size: cover;
 
-}
-.leftButtomRightDetails{
-    background: url(/img/Rectangle\ 4219.png);
+.leftButtomLeftDetails {
+    background: url("../img/Rectangle\ 4218.png");
     width: 400px;
     height: 250px;
     border-radius: 12px;
@@ -268,8 +320,18 @@
 
 }
 
-.rightDetails{
-    background: url(/img/Rectangle\ 4217.png);
+.leftButtomRightDetails {
+    background: url("../img/Rectangle\ 4219.png");
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: -0px -115px 60px -30px black inset;
+    background-size: cover;
+
+}
+
+.rightDetails {
+    background: url("../img/Rectangle\ 4217.png");
     border-radius: 12px;
     width: 32.5%;
     /* height: 550px; */
@@ -277,86 +339,97 @@
     background-size: cover;
 
 }
-.moreDestinations{
+
+.moreDestinations {
     display: flex;
     padding: 3% 0%;
     justify-content: space-between;
     align-items: baseline;
 }
-.brackingLine{
+
+.brackingLine {
     width: 90%;
     height: 3px;
     background-color: black;
 }
-.moreButton{
+
+.moreButton {
     background-color: black;
     border-radius: 5px;
     padding: 10px 25px;
     color: white;
     font-weight: 700;
 }
-.moreButtonLink{
+
+.moreButtonLink {
     text-decoration: none;
     color: white;
 }
+
 /* .moreButtonImg{
     width: 30px;
     height: 30px;
 } */
-.buttonContainer{
+.buttonContainer {
     display: flex;
     justify-content: baseline;
 }
+
 /* imgDescription of right image */
-.rightDetailsHorizontalImgDesc{
+.rightDetailsHorizontalImgDesc {
     position: relative;
     top: 89%;
     left: 5%;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
+
 /* imgDescription of left buttom images */
 
-.leftButtomHorizontalImgDesc{
+.leftButtomHorizontalImgDesc {
     position: relative;
     top: 75%;
     left: 5%;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
 
-.leftUpperHorizontalImgDesc{
+.leftUpperHorizontalImgDesc {
     display: flex;
     padding: 2% 2%;
 }
-.topdestinationRightTitle{
+
+.topdestinationRightTitle {
     color: white;
     font-weight: bold;
     font-size: 16px;
     font-size: "Poppins", "Raleway", sans-serif;
 }
-.topDestinationRightDesc{
+
+.topDestinationRightDesc {
     color: white;
     font-size: 10px;
     font-size: "Poppins", "Raleway", sans-serif;
 
 }
 
-.topdestinationLeftUpperTitle{
+.topdestinationLeftUpperTitle {
     color: white;
     font-weight: bold;
     font-size: 16px;
     font-size: "Poppins", "Raleway", sans-serif;
     writing-mode: vertical-lr;
 }
-.topDestinationLeftUpperDesc{
+
+.topDestinationLeftUpperDesc {
     color: white;
     font-size: 10px;
     font-size: "Poppins", "Raleway", sans-serif;
     writing-mode: vertical-lr;
 }
+
 /* ============================================================================ */
-.bookings{
+.bookings {
     display: flex;
     flex-direction: column;
     margin: 0% 3% 8% 3%;
@@ -365,31 +438,33 @@
 }
 
 
-.bookinIntro{
+.bookinIntro {
     display: flex;
     flex-direction: column;
     padding-bottom: 3%;
 }
-.bookingTitle{
+
+.bookingTitle {
     font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
 
-.bookingDetail{
+.bookingDetail {
     font-family: "Poppins", "Raleway", sans-serif;
     font-size: 16px;
 }
 
 
 /* ////ticketing/// */
-.ticketBooking{
+.ticketBooking {
     display: flex;
     justify-content: space-between;
     padding: 3% 0%;
 }
-.ticketImg{
-    background: url(/img/Rectangle\ 4224.png);
+
+.ticketImg {
+    background: url("../img/Rectangle\ 4224.png");
     /* background-size: 104%; */
     /* background-repeat: no-repeat; */
     background-position-x: center;
@@ -398,34 +473,39 @@
     border-radius: 12px;
     background-size: cover;
 
-  }
+}
 
-.ticketDetail{
+.ticketDetail {
     width: 28%;
     height: 250px;
     background-color: #8D98A8;
     border-radius: 12px;
     clip-path: polygon(0% 0%, 0% 100%, 15% 100%, 15% 0, 22% 0, 22% 100%, 100% 100%, 100% 0%);
 }
-.ticketDescSec{
+
+.ticketDescSec {
     position: relative;
     top: 20%;
     left: 24%;
     display: inline-grid;
     justify-items: end;
 }
-.ticketingTitle{
+
+.ticketingTitle {
     color: white;
     font-size: 28px;
 }
-.ticketingDetail{
+
+.ticketingDetail {
     color: white;
-    /* font-size: 14px; */}
-.ticketsButton{
+    /* font-size: 14px; */
+}
+
+.ticketsButton {
     background-color: white;
     border-radius: 5px;
     /* padding: 10px 25px; */
- 
+
     font-weight: 700;
     width: 103px;
     height: 28px;
@@ -433,11 +513,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-  top: 50%;
-  left: 60%;
-  
+    top: 50%;
+    left: 60%;
+
 }
-.ticktesButtonLink{
+
+.ticktesButtonLink {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -452,8 +533,8 @@
     left: 15%;
     top: -47%;
 } */
-.ticketIcon{
-    background: url(/assets/Intersect.png);
+.ticketIcon {
+    background: url("../assets/Intersect.png");
     width: 24px;
     height: 22px;
     position: relative;
@@ -462,14 +543,16 @@
     background-size: cover;
 
 }
+
 /* /////hoteling//// */
 
 
-.hotelBooking{
+.hotelBooking {
     display: flex;
     justify-content: space-between;
 }
-.hotelDetail{
+
+.hotelDetail {
     width: 30%;
     height: 250px;
     background-color: #1E343D;
@@ -478,13 +561,14 @@
 }
 
 
-.hotelDescSec{
+.hotelDescSec {
     position: relative;
     top: 20%;
     left: 5%;
     /* display: inline-grid;
     justify-items: end; */
 }
+
 /* .hotelwhiteStroke{
     height: 110%;
     width: 22px;
@@ -493,11 +577,11 @@
     left: 81%;
     top: -55%;
   } */
-.hotelsButton{
+.hotelsButton {
     background-color: white;
     border-radius: 5px;
     /* padding: 10px 25px; */
- 
+
     font-weight: 700;
     width: 103px;
     height: 28px;
@@ -508,24 +592,28 @@
     top: 40%;
     left: 10%;
 }
-.hotelsButtonLink{
+
+.hotelsButtonLink {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-family: "Poppins", "Raleway", sans-serif;
 }
-.hotelingTitle{
+
+.hotelingTitle {
     color: white;
     font-size: 28px;
     font-weight: bolder;
     font-family: "Poppins", "Raleway", sans-serif;
 }
-.hotelingDetail{
+
+.hotelingDetail {
     color: white;
     font-family: "Poppins", "Raleway", sans-serif;
 }
-.hotelIcon{
-    background: url(/assets/Group\ 15.png);
+
+.hotelIcon {
+    background: url("../assets/Group\ 15.png");
     width: 23px;
     height: 28px;
     position: relative;
@@ -533,9 +621,10 @@
     left: 91%;
     background-size: cover;
 
-  }
-.hotelImg{
-    background: url(/img/Rectangle\ 4226.png);
+}
+
+.hotelImg {
+    background: url("../img/Rectangle\ 4226.png");
     width: 67%;
     height: 250px;
     border-radius: 12px;
@@ -543,34 +632,38 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-  }
+}
 
 /* /////rental//// */
 
 
-.carRental{
+.carRental {
     display: flex;
     justify-content: space-between;
     padding: 3% 0%;
 }
-.rentalDescSec{
+
+.rentalDescSec {
     position: relative;
     top: 5%;
     left: 5%;
 }
-.rentingTitle{
+
+.rentingTitle {
     color: white;
     font-size: 28px;
     font-weight: bolder;
     font-family: "Poppins", "Raleway", sans-serif;
 }
-.rentingDetail{
+
+.rentingDetail {
     color: white;
     font-family: "Poppins", "Raleway", sans-serif;
 }
-.rentalButton{
+
+.rentalButton {
     background-color: white;
-    border-radius: 5px; 
+    border-radius: 5px;
     font-weight: 700;
     width: 103px;
     height: 28px;
@@ -581,12 +674,14 @@
     top: 36%;
     left: 5%;
 }
-.rentalButtonLink{
+
+.rentalButtonLink {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-family: "Poppins", "Raleway", sans-serif;
 }
+
 /* .rentalwhiteStroke{
     width: 643px;
     height: 22px;
@@ -594,8 +689,8 @@
     position: relative;
   top: 10%;
 } */
-.rentalIcon{
-    background: url(/assets/Group\ 16.png);
+.rentalIcon {
+    background: url("../assets/Group\ 16.png");
     width: 26px;
     height: 24px;
     position: relative;
@@ -605,8 +700,8 @@
 
 }
 
-.rentalImg{
-    background: url(/img/Rectangle\ 4229.png);
+.rentalImg {
+    background: url("../img/Rectangle\ 4229.png");
     /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -617,25 +712,27 @@
     background-size: cover;
 
 }
-.rentalDetail{
+
+.rentalDetail {
     width: 47%;
     height: 250px;
     background-color: #0A1010;
     border-radius: 12px;
-    clip-path: polygon(0% 0%, 0 100%, 0 58%, 100% 58%, 100% 68%, 0 68%, 0 100%, 100% 100%, 100% 0%);    
+    clip-path: polygon(0% 0%, 0 100%, 0 58%, 100% 58%, 100% 68%, 0 68%, 0 100%, 100% 100%, 100% 0%);
 }
 
 
 
 
-.moreBooking{
+.moreBooking {
     background-color: black;
     border-radius: 5px;
     padding: 10px 25px;
     color: white;
     font-weight: 700;
 }
-.moreBookingLink{
+
+.moreBookingLink {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -645,56 +742,62 @@
 }
 
 /* ================================================================================ */
-.testimonials{
+.testimonials {
     display: flex;
     flex-direction: column;
     margin: 0% 3% 8% 3%;
     padding: 0% 3%;
 }
-.testimonialTitle{
+
+.testimonialTitle {
     font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
-.testimonialDetail{
+
+.testimonialDetail {
     font-family: "Poppins", "Raleway", sans-serif;
     font-size: 16px;
 }
-.testimonialDetails{
+
+.testimonialDetails {
     display: flex;
     justify-content: space-between;
     column-gap: 5%;
     margin-top: 5%;
 }
 
-
-.testimonialDetailLeft{
+.testimonialDetailLeft {
     display: flex;
     flex-direction: column;
     width: 130%;
     justify-content: space-around;
 }
-.testimonialDetailLeftUpper{
+
+.testimonialDetailLeftUpper {
     display: flex;
     justify-content: space-around;
 
 }
-.photoContainer{
+
+.photoContainer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: url(/img/Ellipse\ 67.png);
+    background: url("../img/Ellipse\ 67.png");
     background-size: cover;
 
 }
-.testimonialDetailLeftBottom{
+
+.testimonialDetailLeftBottom {
     display: flex;
     column-gap: 10%;
     padding-left: 10%;
 }
+
 /* =================================================================================== */
-.community{
-    background: url(/img/Component\ 3.png);
+.community {
+    background: url("../img/Component\ 3.png");
     height: 1030px;
     display: flex;
     flex-direction: column;
@@ -702,28 +805,33 @@
 
 
 }
-.communityTitle{
+
+.communityTitle {
     font-family: "Poppins", "Raleway", sans-serif;
     font-weight: bold;
     font-size: 32px;
     color: white;
 }
-.communityIntro{
+
+.communityIntro {
     padding: 4% 5%;
 }
-.communityIntroDetail{
+
+.communityIntroDetail {
     font-family: "Poppins", "Raleway", sans-serif;
     font-size: 16px;
     color: white;
 }
-.communityDetail{
+
+.communityDetail {
     display: flex;
     justify-content: space-evenly;
     /* margin-top: 5%; */
     /* margin-left: 2%; */
 
 }
-.lastOverseas{
+
+.lastOverseas {
     font-size: 90px;
     color: white;
     display: flex;
@@ -732,21 +840,14 @@
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-.showCaseContainer{
+.showCaseContainer {
     display: flex;
     gap: 3%;
     margin-bottom: 5%;
     justify-content: space-evenly;
 }
-.showCase{
+
+.showCase {
     width: 400px;
     height: 513px;
     background-color: white;
@@ -756,29 +857,15 @@
     justify-content: space-between;
 
 }
-.showCaseImg{
+
+.showCaseImg {
     width: 395px;
     height: 378px;
     padding: 3%;
 }
-.image1{
-    background: url(/img/Rectangle\ 4263.png);
-    width: 372px;
-    height: 378px;
-    border-radius: 12px;
-    background-size: cover;
 
-}
-.image2{
-    background: url(/img/Rectangle\ 4264.png);
-    width: 372px;
-    height: 378px;
-    border-radius: 12px;
-    background-size: cover;
-
-}
-.image3{
-    background: url(/img/Rectangle\ 4265.png);
+.image1 {
+    background: url("../img/Rectangle\ 4263.png");
     width: 372px;
     height: 378px;
     border-radius: 12px;
@@ -786,32 +873,52 @@
 
 }
 
+.image2 {
+    background: url("../img/Rectangle\ 4264.png");
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+    background-size: cover;
 
-.showCaswDetails{
+}
+
+.image3 {
+    background: url("../img/Rectangle\ 4265.png");
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+    background-size: cover;
+
+}
+
+
+.showCaswDetails {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.showCaswDetails{
+.showCaswDetails {
     padding-left: 5%;
     padding-bottom: 2%;
 }
 
-.showCaseDesc{
+.showCaseDesc {
     padding-bottom: 6%;
 }
-.showCaseTitle{
+
+.showCaseTitle {
     font-weight: bold;
     font-family: "Poppins", sans-serif;
 }
 
-.showCaseDetail{
+.showCaseDetail {
     font-size: 12px;
     font-family: "Poppins", sans-serif;
 }
-.showCasePrice{
-    font-family: "JetBrains Mono","Poppins", sans-serif;
+
+.showCasePrice {
+    font-family: "JetBrains Mono", "Poppins", sans-serif;
     font-size: 10px;
     padding-bottom: 2%;
 }

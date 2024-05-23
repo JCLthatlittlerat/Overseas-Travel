@@ -75,9 +75,9 @@
 }
 .languages{
     width: 45px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
-    color: white;
+    color: black;
     border: 2px solid black;
 }
 /* ======================================================= */

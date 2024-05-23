@@ -75,9 +75,9 @@
 }
 .languages{
     width: 45px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
-    color: white;
+    color: black;
     border: 2px solid black;
 }
 /* ======================================================= */
@@ -656,7 +656,7 @@
 }
 .testimonialDetailLeftBottom{
     display: flex;
-    column-gap: 20%;
+    column-gap: 10%;
     padding-left: 10%;
 }
 /* =================================================================================== */
@@ -688,10 +688,12 @@
 
 }
 .lastOverseas{
-    font-size: 100px;
+    font-size: 90px;
     color: white;
     display: flex;
     justify-content: center;
+    top: 5%;
+    position: relative;
 }
 
 

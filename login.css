@@ -48,9 +48,9 @@
 }
 .languages{
     width: 45px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
-    color: white;
+    color: black;
     border: 2px solid black;
 }
 .users{
@@ -81,6 +81,7 @@
     margin-bottom: 7%;
     border: 1px solid #222222;
     padding-left: 5%;
+    font-size: 18px;
 }
 .password{
     width: 525px;
@@ -89,6 +90,7 @@
     margin-bottom: 7%;
     border: 1px solid #222222;
     padding-left: 5%;
+    font-size: 18px;
 }
 .loginButton{
     width: 554px;

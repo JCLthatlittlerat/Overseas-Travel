@@ -8,6 +8,7 @@
 
 .main-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 30px 3%;
     margin: 0px 3%;
@@ -66,7 +67,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    padding-top: 7px;
+    padding-top: 3px;
 }
 
 .signUpContainer {
@@ -104,8 +105,7 @@
     min-height: 599px;
     /* left: 50px;
     top: 85px; */
-
-    background: url(/img/Rectangle\ 1.png);
+    background: url("../img/Rectangle\ 1.png");
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@
 }
 
 .serviceIcon1 {
-    background: url(/assets/Group\ 3.png);
+    background: url("../assets/Group\ 3.png");
     width: 42px;
     height: 42px;
     background-size: cover;
@@ -148,7 +148,7 @@
 }
 
 .serviceIcon2 {
-    background: url(/assets/Group\ 6.png);
+    background: url("../assets/Group\ 6.png");
     width: 42px;
     height: 42px;
     background-size: cover;
@@ -156,7 +156,7 @@
 }
 
 .serviceIcon3 {
-    background: url(/assets/Group\ 7.png);
+    background: url("../assets/Group\ 7.png");
     width: 42px;
     height: 42px;
     background-size: cover;
@@ -176,7 +176,6 @@
 }
 
 .serviceDescDetail {
-    font-weight: lighter;
     font-size: x-small;
 }
 
@@ -219,11 +218,11 @@
 
 .title {
 
-    font-family: "Poppins", "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .subTitle {
-    font-family: "JetBrains Mono", "Poppins", "Raleway", sans-serif;
+    font-family: "JetBrains Mono", monospace;
 }
 
 /* ========================================================================== */
@@ -267,7 +266,7 @@
 .leftUpperDetails {
     height: 250px;
     width: 100%;
-    background: url(/img/Rectangle\ 4215\(3\).png);
+    background: url("../img/Rectangle\ 4215\(3\).png");
     border-radius: 12px;
     margin-bottom: 50px;
     box-shadow: 90px 0px 60px 0px black inset;
@@ -282,7 +281,7 @@
 }
 
 .leftButtomLeftDetails {
-    background: url(/img/Rectangle\ 4218.png);
+    background: url("../img/Rectangle\ 4218.png");
     width: 400px;
     height: 250px;
     border-radius: 12px;
@@ -292,7 +291,7 @@
 }
 
 .leftButtomRightDetails {
-    background: url(/img/Rectangle\ 4219.png);
+    background: url("../img/Rectangle\ 4219.png");
     width: 400px;
     height: 250px;
     border-radius: 12px;
@@ -302,7 +301,7 @@
 }
 
 .rightDetails {
-    background: url(/img/Rectangle\ 4217.png);
+    background: url("../img/Rectangle\ 4217.png");
     border-radius: 12px;
     width: 32.5%;
     /* height: 550px; */
@@ -435,7 +434,7 @@
 }
 
 .ticketImg {
-    background: url(/img/Rectangle\ 4224.png);
+    background: url("../img/Rectangle\ 4224.png");
     /* background-size: 104%; */
     /* background-repeat: no-repeat; */
     background-position-x: center;
@@ -505,7 +504,7 @@
     top: -47%;
 } */
 .ticketIcon {
-    background: url(/assets/Intersect.png);
+    background: url("../assets/Intersect.png");
     width: 24px;
     height: 22px;
     position: relative;
@@ -584,7 +583,7 @@
 }
 
 .hotelIcon {
-    background: url(/assets/Group\ 15.png);
+    background: url("../assets/Group\ 15.png");
     width: 23px;
     height: 28px;
     position: relative;
@@ -595,7 +594,7 @@
 }
 
 .hotelImg {
-    background: url(/img/Rectangle\ 4226.png);
+    background: url("../img/Rectangle\ 4226.png");
     width: 67%;
     height: 250px;
     border-radius: 12px;
@@ -661,7 +660,7 @@
   top: 10%;
 } */
 .rentalIcon {
-    background: url(/assets/Group\ 16.png);
+    background: url("../assets/Group\ 16.png");
     width: 26px;
     height: 24px;
     position: relative;
@@ -672,7 +671,7 @@
 }
 
 .rentalImg {
-    background: url(/img/Rectangle\ 4229.png);
+    background: url("../img/Rectangle\ 4229.png");
     /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -755,7 +754,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: url(/img/Ellipse\ 67.png);
+    background: url("../img/Ellipse\ 67.png");
     background-size: cover;
 
 }
@@ -768,7 +767,7 @@
 
 /* =================================================================================== */
 .community {
-    background: url(/img/Component\ 3.png);
+    background: url("../img/Component\ 3.png");
     height: 1030px;
     display: flex;
     flex-direction: column;
@@ -836,7 +835,7 @@
 }
 
 .image1 {
-    background: url(/img/Rectangle\ 4263.png);
+    background: url("../img/Rectangle\ 4263.png");
     width: 372px;
     height: 378px;
     border-radius: 12px;
@@ -845,7 +844,7 @@
 }
 
 .image2 {
-    background: url(/img/Rectangle\ 4264.png);
+    background: url("../img/Rectangle\ 4264.png");
     width: 372px;
     height: 378px;
     border-radius: 12px;
@@ -854,7 +853,7 @@
 }
 
 .image3 {
-    background: url(/img/Rectangle\ 4265.png);
+    background: url("../img/Rectangle\ 4265.png");
     width: 372px;
     height: 378px;
     border-radius: 12px;

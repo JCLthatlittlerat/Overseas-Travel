@@ -1,31 +1,39 @@
 /* This code here stabilizes the site because there are browser added spaces at first and they have to be removed */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
-.main-nav{
+
+.main-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 0% 3%;
+    padding: 30px 3%;
+    margin: 0px 3%;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    font-size: 24px;
 }
-.logo-text{
+
+.logo-text {
     font-family: "Raleway", sans-serif;
     font-size: larger;
-    font-weight: lighter;
 }
-.the-O{
+
+.the-O {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
 }
-.overseasNav{
+
+.overseasNav {
     text-decoration: none;
     color: black;
 }
@@ -95,8 +103,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    background-size: cover;
 }
+
 .textPortion{
     font-size: 64px;
     font-weight: bold;
@@ -121,11 +130,10 @@
 .searchFieldContainer{
     display: flex;
     justify-content: space-between;
-    width: 1212px;
     height: 65px;
     align-items: center;
-    /* width: 90%; */
-    padding: 0.1% 2%;
+    width: 100%;
+    padding: 0.1% 10px;
 }
 .searchFieldBoxContainer{
     width: 88%;
@@ -137,6 +145,7 @@
     border: none;
     cursor: pointer;
     font-size: 24px;
+    outline: none;
 }
 
 

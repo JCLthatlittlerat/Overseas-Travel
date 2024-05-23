@@ -1,0 +1,271 @@
+/* This code here stabilizes the site because there are browser added spaces at first and they have to be removed */
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-text{
+    font-family: "Raleway", sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+.the-O{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.overseasNav{
+    text-decoration: none;
+    color: black;
+}
+/* =========================================================== */
+.options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.option{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/* ===================================================================== */
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px
+}
+.login{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 7px;
+}
+.signUpContainer{
+    background-color: black;
+    width: 88px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.signUp{
+    color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.languages{
+    width: 45px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid black;
+}
+/* ======================================================= */
+.preview{
+    /* padding: 0% 3%;*/
+    margin: 0% 3%; 
+    /* position: absolute; */
+    /* width: 1372px; */
+    min-height: 599px;
+    /* left: 50px;
+    top: 85px; */
+
+    background: url(/img/Rectangle\ 4268.png);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.textPortion{
+    font-size: 64px;
+    font-weight: bold;
+    position: relative;
+    top: 375px;
+    left: 5%;
+}
+.subTitle{
+    color: white;
+}
+/* ============================================================= */
+.searchField{
+    margin: 3% 3%;
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    width: 85%;
+    margin-left: 7%;
+    border-radius: 12px;
+    margin-bottom: 4%;
+}
+.searchFieldContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1212px;
+    height: 65px;
+    align-items: center;
+    /* width: 90%; */
+    padding: 0.1% 2%;
+}
+.searchFieldBoxContainer{
+    width: 88%;
+}
+.searchBox{
+    width: 100%;
+    padding: 0.7%;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+}
+.filterButton{
+    background-color: black;
+    border-radius: 12px;
+    height: 50px;
+    width: 55px;
+}
+.searchButton{
+    background-color: black;
+    border-radius: 12px;
+    height: 50px;
+    width: 55px;
+}
+/* ================================================================= */
+
+
+.showCases{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 3%;
+}
+
+.showCaseContainer{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.showCase{
+    width: 400px;
+    height: 513px;
+    background-color: #ddd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.showCaseImg{
+    width: 395px;
+    height: 378px;
+    padding: 3%;
+}
+.image1{
+    background: url(/img/Rectangle\ 4278.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image2{
+    background: url(/img/Rectangle\ 4276.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image3{
+    background: url(/img/Rectangle\ 4271.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image4{
+    background: url(/img/Rectangle\ 4284.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image5{
+    background: url(/img/Rectangle\ 4283.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image6{
+    background: url(/img/Rectangle\ 4282.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image7{
+    background: url(/img/Rectangle\ 4290.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image8{
+    background: url(/img/Rectangle\ 4289.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+.image9{
+    background: url(/img/Rectangle\ 4288.png);
+    width: 372px;
+    height: 378px;
+    border-radius: 12px;
+}
+
+
+.showCaswDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.showCaswDetails{
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+.showCaseDesc{
+    padding-bottom: 10%;
+}
+.showCaseTitle{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.showCaseDetail{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.showCasePrice{
+    font-family: "JetBrains Mono","Poppins", sans-serif;
+}

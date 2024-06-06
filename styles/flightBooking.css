@@ -142,3 +142,61 @@
     height: 50px;
     width: 55px;
 }
+
+/* ===================================================================================================== */
+.mainContainer{
+    display: flex;
+    margin: 2% 3%;
+}
+.details{
+    width: 70%;
+    border: 1px black solid;
+    height: 100vh;
+}
+
+.filters{
+    width: 30%;
+    border: 1px black solid;
+    height: 100vh;
+
+
+}
+/* ===================================================================================================== */
+.priceRange{
+    border: 2px black solid;
+    padding: 1% 1%;
+    display: flex;
+    margin: 2%;
+    border-radius: 12px;
+    /* justify-content: space-evenly; */
+}
+.cheapest{
+    height: 64px;
+    width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border-right: 1px black solid;
+  padding: 2%;
+}
+.best{
+    height: 64px;
+    width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+    padding: 2% 3.5%;
+}
+.quickest{
+    height: 64px;
+    width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border-left: 1px black solid;
+  padding: 2% 3.5%;
+}

@@ -162,6 +162,7 @@
 
 }
 /* ===================================================================================================== */
+
 .priceRange{
     border: 2px black solid;
     padding: 1% 1%;
@@ -170,33 +171,80 @@
     border-radius: 12px;
     /* justify-content: space-evenly; */
 }
-.cheapest{
+.cheapestContainer{
     height: 64px;
     width: 33%;
+    border-right: 1px black solid;
+    margin-left: 1%;
+}
+.cheapest{
+    height: 64px;
+    width: 97%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  border-right: 1px black solid;
-  padding: 2%;
+  /* border-right: 1px black solid; */
+  padding: 3%;
+  border-radius: 6px;
+
+}
+.cheapest:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.bestContainer{
+    height: 64px;
+    width: 33%;
+    border-right: 1px black solid;
 }
 .best{
     height: 64px;
-    width: 33%;
+    width: 94%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-
+    border-radius: 6px;
     padding: 2% 3.5%;
+    margin-left: 3%;
+}
+.best:hover{
+    background-color: #eee;
+    cursor: pointer;
+
+}
+
+.quickestContainer{
+    height: 64px;
+    width: 33%;
+
 }
 .quickest{
     height: 64px;
-    width: 33%;
+    width: 97%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  border-left: 1px black solid;
   padding: 2% 3.5%;
+  border-radius: 6px;
+  margin-left: 3%;
 }
+.quickest:hover{
+    background-color: #eee;
+    cursor: pointer;
+
+}
+
+.priceRangeTitle{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.priceRangePrice{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+
+}
+

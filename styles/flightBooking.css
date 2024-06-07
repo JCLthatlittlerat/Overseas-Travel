@@ -248,3 +248,20 @@
 
 }
 
+/* ===================================================================================================== */
+.flightDetailsContainer{
+    display: flex;
+  justify-content: space-between;
+  border: 2px black solid;
+  border-radius: 12px;
+}
+
+.flightDetailLeft{
+    /* display: flex; */
+}
+
+
+
+.flightDetailRight{
+    display: flex;
+}

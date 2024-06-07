@@ -254,14 +254,152 @@
   justify-content: space-between;
   border: 2px black solid;
   border-radius: 12px;
+  padding: 1% 1%;
+  margin: 2%;
 }
 
 .flightDetailLeft{
     /* display: flex; */
 }
 
+.detailOne{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2%;
+}
+
+.selectAirLine{
+    display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 2%;
+}
+.radioButton{
+
+}
+.airLinesLogo{
+    background: url(/assets/ethiopian_Airlines.png);
+    width: 108px;
+    height: 45px;
+    background-size: cover;
+}
+.flightTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.appointmentTime{
+    font-weight: bold;
+  width: 170px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+
+}
+.airlinesName{
+    font-size: 12px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.numberOfStop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stopCount{
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+}
+.placeToStop{
+    font-size: 12px;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.duration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flightDuration{
+    font-weight: bold;
+    width: 170px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+.fromAndTo{
+    font-size: 12px;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+.detailTwo{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2%;
+}
 
 
 .flightDetailRight{
     display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.economyClass{
+    border: 2px black solid;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 122px;
+  height: 104px;
+  padding: 4%;
+}
+.classPrice{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.classDesc{
+    font-size: 8px;
+    font-family: "Poppins", sans-serif;
+    width: 12ch;
+    display: inline-block;
+}
+.viewDeal{
+    background-color: black;
+    height: 24px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.viewLink{
+    text-decoration: none;
+  color: white;
+  font-size: 8px;
+}
+.bussinesClass{
+    border: 2px black solid;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 122px;
+  height: 104px;
+  padding: 4%;
+  margin-right: 5%;
 }

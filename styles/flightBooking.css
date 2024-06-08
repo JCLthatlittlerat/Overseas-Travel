@@ -283,6 +283,13 @@
     height: 45px;
     background-size: cover;
 }
+.canadanAirLinesLogo{
+    background: url(/assets/air-canada\(1\).webp);
+    width: 111px;
+    height: 31px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .flightTime{
     display: flex;
     flex-direction: column;

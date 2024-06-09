@@ -301,7 +301,7 @@
     margin-bottom: 50px;
     box-shadow: 90px 0px 60px 0px black inset;
     background-size: cover;
-
+    background-position-y: center;
 }
 
 .leftButtomDetails {

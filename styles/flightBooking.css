@@ -150,13 +150,13 @@
 }
 .details{
     width: 70%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     height: 100vh;
 }
 
 .filters{
     width: 30%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     height: 100vh;
 
 
